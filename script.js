@@ -2,7 +2,7 @@ const taskForm = document.getElementById('task-form');
 const taskTitleInput = document.getElementById('task-title');
 const taskList = document.getElementById('task-list');
 
-const API_URL = 'https://backendrpl.netlify.app/.netlify/functions'; // Update with your backend URL
+const API_URL = 'https://backendrpl.netlify.app/.netlify/functions'; 
 
 async function fetchTasks() {
     const response = await fetch(`${API_URL}/getTasks.js`);
